@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style-innerstyle.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js" integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>PAYMENT SYSTEM</title>
+
+</head>
+<body>
+    <main>
+    <section class="bill">
+            <div class="addtocart">
+                <div class="left">
+                    <h3>BILLING ADDRESS</h3>
+                    <form action="" id="addcartfood">
+                        <div class="left">
+                        <label for="">Full Name</label>
+                        <input type="text" name="name" placeholder="Enter name">
+                        <label for="">Email</label>
+                        <input type="text" name="email" placeholder="Enter email">
+        
+                        <label for="">Address</label>
+                        <input type="text" name="address" placeholder="Enter address">
+                        
+                        <label for="">City</label>
+                        <input type="text" name="city" placeholder="Enter City">
+                        <div id="option">
+                            <label for="">State
+                                <select name="state">
+                                    <option>Choose State..</option>
+                                    <option>Hawaii</option>
+                                    <option>California</option>
+                                    <option>Texas</option>
+                                    <option>Alaska</option>
+                                </select>
+                            </label>
+                                <label for="">Zip Code
+                                <input type="number" name="zipcode" placeholder="Zip code">
+                            </label>
+                        </div>
+                        </div>
+                     <div class="right">
+                            
+                        <p>Accepted Card</p>
+                        <div>
+                        <img src="gellary/Screenshot 2023-08-27 192612.png" width="100">
+                        <img src="gellary/card2.png" width="50">
+                        </div>
+        
+                        <label for="">Criet Cart Number</label>
+                         <input type="text" name="cardnumber" placeholder="Enter card number">
+                        
+                        <label for="">Exp month</label>
+                        <input type="text" name="expmonth" placeholder="Enter Month">
+                        <div id="option">
+                            <label for=""> Exp year
+                                <select name="expyear">
+                                    <option>Choose Year..</option>
+                                    <option>2022</option>
+                                    <option>2023</option>
+                                    <option>2024</option>
+                                    <option>2025</option>
+                                </select>
+                            </label>
+                                <label for="">CVV
+                                <input type="number" name="cvv" placeholder="CVV">
+                              </label>
+                        </div>
+                        <input type="submit" name="submit" value="Payment Checkout">
+                    </div>
+                    </form>
+                    </div>
+                </div>
+        </section>
+    </main>
+   
+         <script src="script.js"></script>
+
+</body>
+</html>
